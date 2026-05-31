@@ -46,7 +46,7 @@ DEFAULT_HF_ADAPTER  = "KVZV/qwen3-4b-grpo-lora"   # ← set before submitting
 DEFAULT_DATA_PATH   = "data/private.jsonl"
 DEFAULT_OUTPUT_DIR  = "results/"
 
-MAX_TOKENS   = 32768
+MAX_TOKENS   = 65536
 N_SAMPLES    = 5
 CHUNK_SIZE   = 10
 GPU_UTIL     = 0.85
