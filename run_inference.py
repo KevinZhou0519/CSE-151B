@@ -42,7 +42,7 @@ from vllm.lora.request import LoRARequest
 # Default configuration  (override via run_inference() kwargs)
 # ---------------------------------------------------------------------------
 DEFAULT_BASE_MODEL  = "Qwen/Qwen3-4B-Thinking-2507"
-DEFAULT_HF_ADAPTER  = "YOUR_HF_USERNAME/YOUR_MODEL_NAME"   # ← set before submitting
+DEFAULT_HF_ADAPTER  = "KVZV/qwen3-4b-grpo-lora"   # ← set before submitting
 DEFAULT_DATA_PATH   = "data/private.jsonl"
 DEFAULT_OUTPUT_DIR  = "results/"
 
